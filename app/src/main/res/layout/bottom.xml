@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="bottom">
-
+    //新增了一行注释，看看成不
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-
+//新增了一行注释，看看成不
 public class MainActivity extends FragmentActivity implements View.OnClickListener {
     //声明四个Tab的布局文件
     private LinearLayout tabHome;
