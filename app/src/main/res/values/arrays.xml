@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="posts_name">
+        <item>帖子1</item>
+        <item>帖子2</item>
+        <item>帖子3</item>
+        <item>帖子4</item>
+    </string-array>
+</resources>

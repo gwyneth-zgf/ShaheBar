@@ -1,6 +1,5 @@
 package com.example.shahebar;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
@@ -10,11 +9,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
+
 //新增了一行注释，看看成不
-public class MainActivity extends FragmentActivity implements View.OnClickListener {
+public class MainActivity extends FragmentActivity implements View.OnClickListener{
     //声明四个Tab的布局文件
     private LinearLayout tabHome;
     private LinearLayout tabMap;
@@ -30,6 +28,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private Fragment fragMap;
     private Fragment fragMe;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +37,10 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         initViews();//初始化控件
         initEvents();//初始化事件
         selectTab(0);//默认选中第一个Tab
+
     }
+
+
     private void initEvents() {
         //初始化四个Tab的点击事件
         tabHome.setOnClickListener(this);
@@ -139,5 +141,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         igMap.setImageResource(R.mipmap.icon2);
         igMe.setImageResource(R.mipmap.icon2);
     }
+
 
 }
