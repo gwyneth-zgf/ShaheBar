@@ -18,14 +18,7 @@ public class Me_Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.me_fragment,container,false);
-        TextView txt = (TextView) view.findViewById(R.id.me);
-        txt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d("dd","dddd");
-                Toast.makeText(getActivity(), "当前页面：2", Toast.LENGTH_SHORT).show();
-            }
-        });
+
         return view;
     }
 }

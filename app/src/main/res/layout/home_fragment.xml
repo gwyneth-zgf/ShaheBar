@@ -4,13 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 <!--用来显示主页-->
-    <!--<TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="home_fragment"
-        android:gravity="center"
-        />-->
 
     <!--数据库整出来后，应该用适配器-->
     <ListView
